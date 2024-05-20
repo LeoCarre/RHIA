@@ -48,7 +48,7 @@ pip install streamlit
 pip install -r requirements.txt
 ```
 
-4. **Activer l'Environnement Virtuel :**
+4. **Lancer Streamlit :**
 ```bash
 streamlit run Homepage.py
 ```
