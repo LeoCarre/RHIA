@@ -33,20 +33,22 @@ Ce guide vous aidera à installer et configurer facilement notre projet Streamli
 Tout d'abord ouvrez votre terminal et effectuez les actions suivantes :
 
 1. **Cloner le Repository :**
-
 ```bash
 git clone https://github.com/LeoCarre/RHIA.git
 cd RHIA/GPTInterviewer-main
 ```
 
 2. **Installer Streamlit :**
-
 ```bash
 pip install streamlit
 ```
 
-3. **Activer l'Environnement Virtuel :**
+3. **Installer les Dépendances :**
+```bash
+pip install -r requirements.txt
+```
 
+4. **Activer l'Environnement Virtuel :**
 ```bash
 streamlit run Homepage.py
 ```
