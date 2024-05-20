@@ -66,7 +66,7 @@ aws_secret_access_key = 'votre_aws_secret_access_key'
 
 ### Clé d'API OpenAI pour OpenAI Whisper
 
-Dans le fichier openai_whisper.py, remplacez la ligne suivante avec votre clé d'API OpenAI :
+Dans le fichier `openai_whisper.py`, remplacez la ligne suivante avec votre clé d'API OpenAI :
 
 ```bash
 openai.api_key = 'votre_openai_api_key'
