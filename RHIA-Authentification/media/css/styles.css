@@ -1,0 +1,74 @@
+body {
+  background: #262627;
+}
+
+.navbar {
+  background-color: #262730; /* Couleur de la navbar */
+  border-radius: 10px;
+}
+
+/* Bouton */
+.nav-item {
+  margin: 20px 20px 10px 0;
+  padding: auto;
+  background-color: white;
+  border: none;
+  color: #0d0e0e;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background-color: #e9ebeb;
+}
+
+/* Home */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 400px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #343a40; /* Couleur de fond sombre */
+  border-color: #343a40; /* Couleur de bordure sombre */
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1d2124; /* Couleur de fond sombre au survol */
+  border-color: #1d2124; /* Couleur de bordure sombre au survol */
+}
+
